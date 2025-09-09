@@ -1,0 +1,55 @@
+/* Large Screens (1400px and above): 5 columns if more plans are added */
+@media (min-width: 1400px) {
+    .plans {
+        justify-content: flex-start;
+    }
+    .plan {
+        flex: 1 1 18%;
+        max-width: 18%;
+    }
+}
+
+/* Desktop (1200px–1400px): 4 columns */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .plan {
+        flex: 1 1 22%;
+        max-width: 22%;
+    }
+}
+
+/* Laptop (992px–1200px): 3 columns */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .plan {
+        flex: 1 1 30%;
+        max-width: 30%;
+    }
+}
+
+/* Tablet (768px–992px): 2 columns */
+@media (min-width: 768px) and (max-width: 991px) {
+    .plan {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
+
+/* Mobile Landscape (576px–768px): 2 columns */
+@media (min-width: 576px) and (max-width: 767px) {
+    .plan {
+        flex: 1 1 90%;
+        max-width: 48%;
+    }
+}
+
+/* Mobile Portrait (<576px): 1 column */
+@media (max-width: 575px) {
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan {
+        max-width: 98%;
+        width: 98%;
+        flex: 1 1 98%;
+    }
+}
