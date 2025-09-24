@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-size: 18px;
+}
+.header-2{
+    
+    display: flex;                                                                     
+    justify-content: center;
+}
+.header-2 .center-header {
+    
+    /* background-color: antiquewhite; */
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-menus{
+   
+    display: flex;
+    gap: 20px;
+}
+.header-menu{
+    display: none;
+}
+
+/* Destop section  */
+.section-1{
+    background-color: #02395A;
+    height: auto;
+    width: 100%;
+
+}
+
+.section-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* About intro  */
+.section-2{
+    background-color: #02395A;
+    height: 181px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.about-classes{
+    height: 100%;
+    width: 1220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+.about-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.about-box h1{
+    font-weight: 500;
+}
+.svg{
+    font-size: 1.5rem;
+}
