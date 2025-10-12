@@ -244,5 +244,3 @@ Class	Description
 
 ---
 
-Would you like me to continue with the next section (16–25: Grid System) in the same easy and clear style?
-
